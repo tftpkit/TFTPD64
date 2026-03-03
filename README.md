@@ -1,7 +1,7 @@
 # TFTPD64 v4.74
 
 Download latest version from Releases:       
-https://github.com/tftnet/TFTPD64/releases/tag/v4.74
+https://github.com/tftup/TFTPD64/releases/tag/v4.74
 
 ## Introduction
 
@@ -9,4 +9,4 @@ TFTPD64 is a compact Windows x64 network-services bundle built for labs, staging
 
 For advanced users, the strength is predictable behavior and tight control over service scope: bind services to specific NICs, isolate the working directory, and tune transfer parameters for noisy LANs. The TFTP engine supports concurrent sessions and common option negotiation (for example blksize, tsize, and timeout), while detailed per-request logging helps you trace client IPs, requested paths, retries, and error conditions during iterative troubleshooting. The DHCP module can advertise PXE settings such as next-server and bootfile name (DHCP options 66/67), along with lease pools, router, and DNS. When enabled, the lightweight DNS and SNTP services can cover isolated segments that lack upstream infrastructure, keeping boot environments deterministic.
 
-Use TFTPD64 as an operational utility, not an internet-exposed service: secure the host, isolate the network segment, and apply strict Windows Firewall rules along with proper directory permissions. It pairs efficiently with packet inspection utilities such as Wireshark for advanced troubleshooting. It integrates seamlessly with packet inspection tools like Wireshark, enabling deeper diagnostics and advanced troubleshooting. In this capacity, it serves as a reliable edge platform that supports imaging workflows, automated laboratory setups, and rapid-response operations.
+Use TFTPD64 as an operational utility, not an internet-exposed service: secure the host, isolate the network segment, and apply strict Windows Firewall rules along with proper directory permissions. It pairs efficiently with packet inspection utilities such as Wireshark for advanced troubleshooting. Working effectively alongside packet analysis solutions such as Wireshark, it enhances troubleshooting capabilities and network visibility. In this role, it functions as a dependable edge platform designed to facilitate imaging tasks, automated lab environments, and time-sensitive response scenarios.
